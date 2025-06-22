@@ -1,14 +1,4 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>Untitled</title>
-  
-
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
@@ -82,6 +72,9 @@
             text-decoration: none;
             font-weight: 500;
             transition: transform 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
         }
         
         .btn:hover {
@@ -90,9 +83,10 @@
         
         .btn-telegram {
             background-color: #0088cc;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
+        }
+        
+        .btn-forum {
+            background-color: #28a745;
         }
         
         footer {
@@ -132,6 +126,9 @@
                 <a href="https://vlad-pay.github.io/listmod/" class="btn" target="_blank">
                     <i class="fas fa-list"></i> Список модов
                 </a>
+                <a href="https://vlad-pay.github.io/forum/" class="btn btn-forum" target="_blank">
+                    <i class="fas fa-users"></i> Набор
+                </a>
             </div>
         </div>
     </header>
@@ -139,9 +136,5 @@
     <footer>
         <p>© 2023 SlafDayCraft</p>
     </footer>
-</body>
-</html>
-<!-- partial -->
-  
 </body>
 </html>
